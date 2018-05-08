@@ -1,12 +1,13 @@
 # uscis_scraper
 
-usage:
+### Usage:
+* `python check_status.py -c CASE_NUM` gives you the status of the case. Besides, insert case status into mysql table `uscis.case_status`. 
+* Run `python check_status.py --help` for more options. 
+### Prerequisite
+* Mysql installed
+* Mysql database `uscis` pre-created
 
-`python check_status.py -c CASE_NUM` gives you the status of the case.
-
-Run `python check_status.py --help` for more options. 
-
-Todos:
+### Todos:
 * Case status based on ranges
 * Plot graphs
 * ...
